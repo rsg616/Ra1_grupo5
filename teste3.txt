@@ -1,0 +1,12 @@
+# Teste 3 - Números reais e RES encadeado
+# Aluno 1: [SEU NOME]
+(3.14 2.0 *)
+(2.5 1.5 +)
+(10.0 3.0 //)
+(10.0 3.0 %)
+(2 10 ^)
+(1 RES)
+(2 RES)
+(1.5 MEM)
+(MEM)
+((MEM) (2 3 +) *)

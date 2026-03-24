@@ -1,0 +1,72 @@
+# TIPO	VALOR	LINHA	COLUNA
+# --- Linha 3: (3.14 2.0 *)
+LPAREN	(	3	0
+NUM	3.14	3	1
+NUM	2.0	3	6
+OP	*	3	10
+RPAREN	)	3	11
+
+# --- Linha 4: (2.5 1.5 +)
+LPAREN	(	4	0
+NUM	2.5	4	1
+NUM	1.5	4	5
+OP	+	4	9
+RPAREN	)	4	10
+
+# --- Linha 5: (10.0 3.0 //)
+LPAREN	(	5	0
+NUM	10.0	5	1
+NUM	3.0	5	6
+OP	//	5	10
+RPAREN	)	5	12
+
+# --- Linha 6: (10.0 3.0 %)
+LPAREN	(	6	0
+NUM	10.0	6	1
+NUM	3.0	6	6
+OP	%	6	10
+RPAREN	)	6	11
+
+# --- Linha 7: (2 10 ^)
+LPAREN	(	7	0
+NUM	2	7	1
+NUM	10	7	3
+OP	^	7	6
+RPAREN	)	7	7
+
+# --- Linha 8: (1 RES)
+LPAREN	(	8	0
+NUM	1	8	1
+RES	RES	8	3
+RPAREN	)	8	6
+
+# --- Linha 9: (2 RES)
+LPAREN	(	9	0
+NUM	2	9	1
+RES	RES	9	3
+RPAREN	)	9	6
+
+# --- Linha 10: (1.5 MEM)
+LPAREN	(	10	0
+NUM	1.5	10	1
+MEM_STORE	MEM	10	5
+RPAREN	)	10	8
+
+# --- Linha 11: (MEM)
+LPAREN	(	11	0
+MEM_STORE	MEM	11	1
+RPAREN	)	11	4
+
+# --- Linha 12: ((MEM) (2 3 +) *)
+LPAREN	(	12	0
+LPAREN	(	12	1
+MEM_STORE	MEM	12	2
+RPAREN	)	12	5
+LPAREN	(	12	7
+NUM	2	12	8
+NUM	3	12	10
+OP	+	12	12
+RPAREN	)	12	13
+OP	*	12	15
+RPAREN	)	12	16
+
