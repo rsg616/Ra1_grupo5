@@ -1,9 +1,17 @@
-# ---------------------------------------------
-#  main.py  -  Aluno 4
-#  Orquestra todo o pipeline do programa
+# ============================================================
+#  Grupo: Ra1_grupo5
+#  Disciplina: [NOME DA DISCIPLINA]
+#  Professor:  [NOME DO PROFESSOR]
+#  Integrantes (ordem alfabetica):
+#    [Aluno 1 - Nome Completo] - github: [usuario1]
+#    [Aluno 2 - Nome Completo] - github: [usuario2]
+#    [Aluno 3 - Nome Completo] - github: [usuario3]
+#    [Aluno 4 - Nome Completo] - github: [usuario4]
 #
+#  Aluno 4 - main e lerArquivo
+#  Orquestra todo o pipeline: leitura -> lexico -> assembly -> exibicao
 #  Uso: python main.py <arquivo_de_teste.txt>
-# ---------------------------------------------
+# ============================================================
 import sys
 import os
 

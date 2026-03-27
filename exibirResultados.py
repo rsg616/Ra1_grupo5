@@ -1,7 +1,16 @@
-# ---------------------------------------------
-#  exibir_resultados.py  -  Aluno 4
-#  Formata e exibe os resultados das expressoes
-# ---------------------------------------------
+# ============================================================
+#  Grupo: Ra1_grupo5
+#  Disciplina: [NOME DA DISCIPLINA]
+#  Professor:  [NOME DO PROFESSOR]
+#  Integrantes (ordem alfabetica):
+#    [Aluno 1 - Nome Completo] - github: [usuario1]
+#    [Aluno 2 - Nome Completo] - github: [usuario2]
+#    [Aluno 3 - Nome Completo] - github: [usuario3]
+#    [Aluno 4 - Nome Completo] - github: [usuario4]
+#
+#  Aluno 4 - exibirResultados e Interface do Usuario
+#  Formata e exibe os resultados das expressoes processadas.
+# ============================================================
 
 
 def exibirResultados(expressoes, resultados):

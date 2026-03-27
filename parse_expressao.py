@@ -1,3 +1,16 @@
+# ============================================================
+#  Grupo: Ra1_grupo5
+#  Disciplina: [NOME DA DISCIPLINA]
+#  Professor:  [NOME DO PROFESSOR]
+#  Integrantes (ordem alfabetica):
+#    [Aluno 1 - Nome Completo] - github: [usuario1]
+#    [Aluno 2 - Nome Completo] - github: [usuario2]
+#    [Aluno 3 - Nome Completo] - github: [usuario3]
+#    [Aluno 4 - Nome Completo] - github: [usuario4]
+#
+#  Aluno 1 - parseExpressao e Analisador Lexico (AFD)
+#  Implementa o analisador lexico com estados como funcoes (AFD).
+# ============================================================
 import sys
 
 TOKEN_NUM       = "NUM"
